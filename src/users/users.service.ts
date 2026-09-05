@@ -2,8 +2,9 @@ import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
 import { ScopedQueryDto } from '../common/common.dto';
+import { hashPassword } from '../common/security/password.util';
 import { CreateUserDto } from './dto/user.dto';
-import { User } from './schemas/user.schema';
+import { User, UserRole } from './schemas/user.schema';
 
 @Injectable()
 export class UsersService {
@@ -12,7 +13,17 @@ export class UsersService {
   ) {}
 
   create(dto: CreateUserDto) {
-    return this.userModel.create(dto);
+    const { password, ...user } = dto;
+    return this.userModel.create({
+      ...user,
+      auth: {
+        ...user.auth,
+        passwordHash: password
+          ? hashPassword(password)
+          : user.auth?.passwordHash,
+        isEnabled: user.auth?.isEnabled ?? true,
+      },
+    });
   }
 
   list(query: ScopedQueryDto) {
@@ -29,5 +40,30 @@ export class UsersService {
     const user = await this.userModel.findById(id);
     if (!user) throw new NotFoundException('User not found');
     return user;
+  }
+
+  async findByPhoneWithAuth(phone: string) {
+    return this.userModel.findOne({ phone }).select('+auth.passwordHash');
+  }
+
+  async findByIdentifierWithAuth(identifier: string) {
+    const normalized = identifier.trim().toLowerCase();
+    return this.userModel
+      .findOne({
+        $or: [{ phone: identifier.trim() }, { email: normalized }],
+      })
+      .select('+auth.passwordHash');
+  }
+
+  countByRole(role: UserRole) {
+    return this.userModel.countDocuments({ role });
+  }
+
+  async touchLastLogin(id: string) {
+    return this.userModel.findByIdAndUpdate(
+      id,
+      { 'auth.lastLoginAt': new Date() },
+      { new: true },
+    );
   }
 }

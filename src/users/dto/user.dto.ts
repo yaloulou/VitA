@@ -1,5 +1,6 @@
 import {
   IsBoolean,
+  IsEmail,
   IsEnum,
   IsMongoId,
   IsOptional,
@@ -52,6 +53,9 @@ export class CreateUserDto {
   @IsString()
   fullName: string;
 
+  @IsEmail()
+  email: string;
+
   @IsString()
   phone: string;
 
@@ -61,6 +65,10 @@ export class CreateUserDto {
   @ValidateNested()
   @Type(() => UserScopeDto)
   scope: UserScopeDto;
+
+  @IsOptional()
+  @IsString()
+  password?: string;
 
   @IsOptional()
   @ValidateNested()

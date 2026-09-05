@@ -8,6 +8,7 @@ import { LocationsModule } from './locations/locations.module';
 import { CommoditiesModule } from './commodities/commodities.module';
 import { UsersModule } from './users/users.module';
 import { InventoryModule } from './inventory/inventory.module';
+import { AuthModule } from './auth/auth.module';
 
 @Module({
   imports: [
@@ -34,6 +35,7 @@ import { InventoryModule } from './inventory/inventory.module';
     CommoditiesModule,
     UsersModule,
     InventoryModule,
+    AuthModule,
   ],
   controllers: [AppController],
   providers: [AppService],

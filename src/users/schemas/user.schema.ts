@@ -55,6 +55,9 @@ export class User {
   @Prop({ required: true, trim: true })
   fullName: string;
 
+  @Prop({ required: true, trim: true, lowercase: true, unique: true })
+  email: string;
+
   @Prop({ required: true, trim: true, unique: true })
   phone: string;
 
