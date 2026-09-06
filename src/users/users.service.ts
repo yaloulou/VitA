@@ -42,10 +42,6 @@ export class UsersService {
     return user;
   }
 
-  async findByPhoneWithAuth(phone: string) {
-    return this.userModel.findOne({ phone }).select('+auth.passwordHash');
-  }
-
   async findByIdentifierWithAuth(identifier: string) {
     const normalized = identifier.trim().toLowerCase();
     return this.userModel

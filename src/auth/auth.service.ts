@@ -83,10 +83,7 @@ export class AuthService {
       auth: { isEnabled: true },
     });
 
-    return {
-      user: this.serializeUser(user),
-      payloadExample: this.superUserPayloadExample(),
-    };
+    return { user: this.serializeUser(user) };
   }
 
   async me(userId: string) {
@@ -120,15 +117,6 @@ export class AuthService {
       );
     }
     return token;
-  }
-
-  private superUserPayloadExample() {
-    return {
-      fullName: 'Administrateur National',
-      email: 'admin@vita.cd',
-      phone: '+243810000000',
-      password: 'mot-de-passe-fort',
-    };
   }
 
   private serializeUser(user: any) {
