@@ -1,0 +1,148 @@
+{"kind":"deck","id":"pr/q45iui","name":"Deck"}
+{"kind":"layout","layoutId":"b4078bd8-13a1-485c-ba09-b49b8f9bcc38","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"28a6b0d3-a7ae-4784-94fc-1acce6cd6c12","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/bx5gez","slide":1,"title":"KSPH VitA Stock","textShapes":6}
+{"kind":"shape","id":"sh/pgrmt0zm","slide":1,"bbox":[0,0,1280,720]}
+{"kind":"shape","id":"sh/2dg3il0v","slide":1,"bbox":[0,0,1280,190]}
+{"kind":"textbox","id":"sh/3ep4rqhg","slide":1,"text":"KSPH VitA Stock","textPreview":"KSPH VitA Stock","textChars":15,"textLines":1,"bbox":[80,86,760,62]}
+{"kind":"textbox","id":"sh/gbylgbip","slide":1,"text":"Évolution du projet et fonctionnalités déjà disponibles","textPreview":"Évolution du projet et fonctionnalités déjà disponibles","textChars":55,"textLines":1,"bbox":[82,154,760,36]}
+{"kind":"textbox","id":"sh/epg3e10j","slide":1,"text":"Présentation centrée sur les écrans déjà visibles: console admin, alertes, référentiel, utilisateurs, connexion mobile et formulaire de stock.","textPreview":"Présentation centrée sur les écrans déjà visibles: console admin, alertes, référentiel, utilisateurs, connexion mobile et formulaire de s...","textChars":142,"textLines":1,"bbox":[82,290,510,150]}
+{"kind":"textbox","id":"sh/fqp4n6h4","slide":1,"text":"Version de démonstration fonctionnelle","textPreview":"Version de démonstration fonctionnelle","textChars":38,"textLines":1,"bbox":[82,486,330,38]}
+{"kind":"textbox","id":"sh/snelcbit","slide":1,"text":"KSPH VitA Stock","textPreview":"KSPH VitA Stock","textChars":15,"textLines":1,"bbox":[72,666,260,24]}
+{"kind":"textbox","id":"sh/tonmlgze","slide":1,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[1165,662,44,26]}
+{"kind":"image","id":"im/03e54jqh","slide":1,"name":"","alt":"Console admin avec référentiel des provinces, zones, structures et produits","bbox":[720,235,460,260]}
+{"kind":"notes","id":"nt/bx5gez","slide":1,"text":"Sources: captures fournies par l'utilisateur et code local des projets vita_back, vita-frontend et vita_mobile."}
+{"kind":"slide","id":"sl/m2wzbk","slide":2,"title":"Lecture des captures","textShapes":14}
+{"kind":"textbox","id":"sh/povep0fe","slide":2,"text":"Lecture des captures","textPreview":"Lecture des captures","textChars":20,"textLines":1,"bbox":[70,48,760,54]}
+{"kind":"textbox","id":"sh/2l4velwn","slide":2,"text":"Les écrans montrent le périmètre fonctionnel déjà matérialisé","textPreview":"Les écrans montrent le périmètre fonctionnel déjà matérialisé","textChars":61,"textLines":1,"bbox":[72,94,900,34]}
+{"kind":"textbox","id":"sh/3mdwnqx8","slide":2,"text":"KSPH VitA Stock","textPreview":"KSPH VitA Stock","textChars":15,"textLines":1,"bbox":[72,666,260,24]}
+{"kind":"textbox","id":"sh/cr6dkfep","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1165,662,44,26]}
+{"kind":"textbox","id":"sh/dsfet0fa","slide":2,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[96,180,28,30]}
+{"kind":"textbox","id":"sh/qpovi5wj","slide":2,"text":"La barre latérale admin donne accès aux quatre blocs livrés: Dashboard, Utilisateurs, Référentiel et Alertes.","textPreview":"La barre latérale admin donne accès aux quatre blocs livrés: Dashboard, Utilisateurs, Référentiel et Alertes.","textChars":109,"textLines":1,"bbox":[134,178,582,66]}
+{"kind":"textbox","id":"sh/rqxwrax4","slide":2,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[96,254,28,30]}
+{"kind":"textbox","id":"sh/0v6xofe1","slide":2,"text":"La console utilise le nom KSPH VitA Stock et place la coordination vitamine A au centre du pilotage.","textPreview":"La console utilise le nom KSPH VitA Stock et place la coordination vitamine A au centre du pilotage.","textChars":100,"textLines":1,"bbox":[134,252,582,66]}
+{"kind":"textbox","id":"sh/1gzexkf6","slide":2,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[96,328,28,30]}
+{"kind":"textbox","id":"sh/dsz69gzu","slide":2,"text":"Les écrans mobile reprennent le même usage métier: connexion du terrain puis saisie de stock.","textPreview":"Les écrans mobile reprennent le même usage métier: connexion du terrain puis saisie de stock.","textChars":93,"textLines":1,"bbox":[134,326,582,66]}
+{"kind":"textbox","id":"sh/s7q50vy9","slide":2,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[96,402,28,30]}
+{"kind":"textbox","id":"sh/r6xo7qho","slide":2,"text":"Les captures couvrent le flux complet entre administration et collecte terrain.","textPreview":"Les captures couvrent le flux complet entre administration et collecte terrain.","textChars":79,"textLines":1,"bbox":[134,400,582,66]}
+{"kind":"shape","id":"sh/q5onylg3","slide":2,"bbox":[820,168,300,300]}
+{"kind":"textbox","id":"sh/1wz6d0zq","slide":2,"text":"Ce que l'on peut déjà montrer","textPreview":"Ce que l'on peut déjà montrer","textChars":29,"textLines":1,"bbox":[850,202,230,58]}
+{"kind":"textbox","id":"sh/0vq54vy5","slide":2,"text":"Création de comptes\nCréation du référentiel\nSuivi des alertes\nSaisie mobile","textPreview":"Création de comptes | Création du référentiel | Suivi des alertes | Saisie mobile","textChars":75,"textLines":4,"bbox":[850,262,230,150]}
+{"kind":"notes","id":"nt/m2wzbk","slide":2,"text":"Lecture transversale des captures fournies par l'utilisateur."}
+{"kind":"slide","id":"sl/is117s","slide":3,"title":"Console administrative","textShapes":8}
+{"kind":"textbox","id":"sh/u9o3ul8r","slide":3,"text":"Console administrative","textPreview":"Console administrative","textChars":22,"textLines":1,"bbox":[70,48,760,54]}
+{"kind":"textbox","id":"sh/hcfm5gri","slide":3,"text":"La navigation montre les blocs disponibles pour le pilotage","textPreview":"La navigation montre les blocs disponibles pour le pilotage","textChars":59,"textLines":1,"bbox":[72,94,900,34]}
+{"kind":"textbox","id":"sh/gb6lwvqx","slide":3,"text":"KSPH VitA Stock","textPreview":"KSPH VitA Stock","textChars":15,"textLines":1,"bbox":[72,666,260,24]}
+{"kind":"textbox","id":"sh/3yh47q98","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1165,662,44,26]}
+{"kind":"textbox","id":"sh/p0zm90re","slide":3,"text":"Menu de gauche","textPreview":"Menu de gauche","textChars":14,"textLines":1,"bbox":[810,168,220,26]}
+{"kind":"textbox","id":"sh/4zq50vqt","slide":3,"text":"Les entrées Dashboard, Utilisateurs, Référentiel et Alertes structurent l'outil admin autour des tâches récurrentes.","textPreview":"Les entrées Dashboard, Utilisateurs, Référentiel et Alertes structurent l'outil admin autour des tâches récurrentes.","textChars":116,"textLines":1,"bbox":[810,200,350,78]}
+{"kind":"textbox","id":"sh/j2d4v694","slide":3,"text":"En-tête","textPreview":"En-tête","textChars":7,"textLines":1,"bbox":[810,320,220,26]}
+{"kind":"textbox","id":"sh/y143m1sj","slide":3,"text":"Le libellé Coordination vitamine A indique que l'interface vise directement le suivi opérationnel VitA.","textPreview":"Le libellé Coordination vitamine A indique que l'interface vise directement le suivi opérationnel VitA.","textChars":103,"textLines":1,"bbox":[810,352,350,74]}
+{"kind":"image","id":"im/batkradw","slide":3,"name":"","alt":"Console administrative avec menu latéral et référentiel","bbox":[72,150,690,390]}
+{"kind":"notes","id":"nt/is117s","slide":3,"text":"Source: capture admin référentiel fournie par l'utilisateur."}
+{"kind":"slide","id":"sl/vg03p6","slide":4,"title":"Gestion des utilisateurs","textShapes":12}
+{"kind":"textbox","id":"sh/298zep8r","slide":4,"text":"Gestion des utilisateurs","textPreview":"Gestion des utilisateurs","textChars":24,"textLines":1,"bbox":[70,48,760,54]}
+{"kind":"textbox","id":"sh/pczypk7i","slide":4,"text":"La capture montre la création et le suivi des comptes","textPreview":"La capture montre la création et le suivi des comptes","textChars":53,"textLines":1,"bbox":[72,94,900,34]}
+{"kind":"textbox","id":"sh/obqhgfqx","slide":4,"text":"KSPH VitA Stock","textPreview":"KSPH VitA Stock","textChars":15,"textLines":1,"bbox":[72,666,260,24]}
+{"kind":"textbox","id":"sh/behgrup8","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1165,662,44,26]}
+{"kind":"textbox","id":"sh/dgjyt47e","slide":4,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[825,167,28,30]}
+{"kind":"textbox","id":"sh/cfqhkzqt","slide":4,"text":"Le formulaire prévoit le nom complet, le téléphone, le mot de passe temporaire et le rôle.","textPreview":"Le formulaire prévoit le nom complet, le téléphone, le mot de passe temporaire et le rôle.","textChars":90,"textLines":1,"bbox":[863,165,292,80]}
+{"kind":"textbox","id":"sh/7ixgfq94","slide":4,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[825,255,28,30]}
+{"kind":"textbox","id":"sh/6hof658j","slide":4,"text":"L'affectation rattache le compte à une structure, une zone ou une province.","textPreview":"L'affectation rattache le compte à une structure, une zone ou une province.","textChars":75,"textLines":1,"bbox":[863,253,292,80]}
+{"kind":"textbox","id":"sh/0rq9g76p","slide":4,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[825,343,28,30]}
+{"kind":"textbox","id":"sh/1szq9cna","slide":4,"text":"La liste à droite permet de voir les comptes actifs et leur rôle opérationnel.","textPreview":"La liste à droite permet de voir les comptes actifs et leur rôle opérationnel.","textChars":78,"textLines":1,"bbox":[863,341,292,80]}
+{"kind":"textbox","id":"sh/eporexoj","slide":4,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[825,431,28,30]}
+{"kind":"textbox","id":"sh/zqx87254","slide":4,"text":"Cette page crée les acteurs terrain et les superviseurs.","textPreview":"Cette page crée les acteurs terrain et les superviseurs.","textChars":56,"textLines":1,"bbox":[863,429,292,80]}
+{"kind":"image","id":"im/ju9ob65c","slide":4,"name":"","alt":"Page Utilisateurs de la console administrative","bbox":[70,145,700,394]}
+{"kind":"notes","id":"nt/vg03p6","slide":4,"text":"Source: capture admin utilisateurs fournie par l'utilisateur."}
+{"kind":"slide","id":"sl/fiy6hk","slide":5,"title":"Référentiel sanitaire","textShapes":12}
+{"kind":"textbox","id":"sh/fqh876t8","slide":5,"text":"Référentiel sanitaire","textPreview":"Référentiel sanitaire","textChars":21,"textLines":1,"bbox":[70,48,760,54]}
+{"kind":"textbox","id":"sh/grq9gbat","slide":5,"text":"La capture montre la préparation des données de base","textPreview":"La capture montre la préparation des données de base","textChars":52,"textLines":1,"bbox":[72,94,900,34]}
+{"kind":"textbox","id":"sh/hszq9gbe","slide":5,"text":"KSPH VitA Stock","textPreview":"KSPH VitA Stock","textChars":15,"textLines":1,"bbox":[72,666,260,24]}
+{"kind":"textbox","id":"sh/2t8rilsz","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1165,662,44,26]}
+{"kind":"textbox","id":"sh/4va9kva5","slide":5,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[835,167,28,30]}
+{"kind":"textbox","id":"sh/pwjqd0ba","slide":5,"text":"Les cartes Province, Zone de santé, Structure et Produit couvrent les entités visibles dans les rapports.","textPreview":"Les cartes Province, Zone de santé, Structure et Produit couvrent les entités visibles dans les rapports.","textChars":105,"textLines":1,"bbox":[873,165,287,74]}
+{"kind":"textbox","id":"sh/yxo76hsf","slide":5,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[835,249,28,30]}
+{"kind":"textbox","id":"sh/jyx8zmt0","slide":5,"text":"Les listes du bas confirment les structures suivies, comme CS Binza et CS Nzanza.","textPreview":"Les listes du bas confirment les structures suivies, comme CS Binza et CS Nzanza.","textChars":81,"textLines":1,"bbox":[873,247,287,74]}
+{"kind":"textbox","id":"sh/7yl0zid8","slide":5,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[835,331,28,30]}
+{"kind":"textbox","id":"sh/6xcz6dwn","slide":5,"text":"Le produit Vitamine A apparaît comme produit suivi avec l'unité capsule.","textPreview":"Le produit Vitamine A apparaît comme produit suivi avec l'unité capsule.","textChars":72,"textLines":1,"bbox":[873,329,287,74]}
+{"kind":"textbox","id":"sh/t03i1svy","slide":5,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[835,413,28,30]}
+{"kind":"textbox","id":"sh/szu18ned","slide":5,"text":"Ce référentiel rend les formulaires plus fiables grâce à des choix contrôlés.","textPreview":"Ce référentiel rend les formulaires plus fiables grâce à des choix contrôlés.","textChars":77,"textLines":1,"bbox":[873,411,287,74]}
+{"kind":"image","id":"im/6pkfyxw7","slide":5,"name":"","alt":"Page Référentiel de la console administrative","bbox":[72,145,720,405]}
+{"kind":"notes","id":"nt/fiy6hk","slide":5,"text":"Source: capture admin référentiel fournie par l'utilisateur."}
+{"kind":"slide","id":"sl/996hnx","slide":6,"title":"Alertes opérationnelles","textShapes":12}
+{"kind":"textbox","id":"sh/szq14nix","slide":6,"text":"Alertes opérationnelles","textPreview":"Alertes opérationnelles","textChars":23,"textLines":1,"bbox":[70,48,760,54]}
+{"kind":"textbox","id":"sh/ryhkvi1c","slide":6,"text":"La console met en évidence les situations à traiter","textPreview":"La console met en évidence les situations à traiter","textChars":51,"textLines":1,"bbox":[72,94,900,34]}
+{"kind":"textbox","id":"sh/6x8j2d0r","slide":6,"text":"KSPH VitA Stock","textPreview":"KSPH VitA Stock","textChars":15,"textLines":1,"bbox":[72,666,260,24]}
+{"kind":"textbox","id":"sh/14j21sje","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1165,662,44,26]}
+{"kind":"textbox","id":"sh/f21kz218","slide":6,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[840,170,28,30]}
+{"kind":"textbox","id":"sh/e1sj6x0n","slide":6,"text":"Le bouton Evaluer les alertes déclenche le recalcul depuis la console.","textPreview":"Le bouton Evaluer les alertes déclenche le recalcul depuis la console.","textChars":70,"textLines":1,"bbox":[878,168,292,68]}
+{"kind":"textbox","id":"sh/ps325cja","slide":6,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[840,246,28,30]}
+{"kind":"textbox","id":"sh/ora1c7ip","slide":6,"text":"La première alerte signale CS Binza en stock critique avec environ 1 jour restant.","textPreview":"La première alerte signale CS Binza en stock critique avec environ 1 jour restant.","textChars":82,"textLines":1,"bbox":[878,244,292,68]}
+{"kind":"textbox","id":"sh/ah0f294r","slide":6,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[840,322,28,30]}
+{"kind":"textbox","id":"sh/bi9gbe5c","slide":6,"text":"La deuxième alerte signale CS Nzanza pour rapport manquant avant l'échéance.","textPreview":"La deuxième alerte signale CS Nzanza pour rapport manquant avant l'échéance.","textChars":76,"textLines":1,"bbox":[878,320,292,68]}
+{"kind":"textbox","id":"sh/wjih4jmx","slide":6,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[840,398,28,30]}
+{"kind":"textbox","id":"sh/xkryd4ni","slide":6,"text":"Les boutons à droite servent à traiter l'alerte, par exemple accuser réception ou résoudre.","textPreview":"Les boutons à droite servent à traiter l'alerte, par exemple accuser réception ou résoudre.","textChars":91,"textLines":1,"bbox":[878,396,292,68]}
+{"kind":"image","id":"im/50fapsvu","slide":6,"name":"","alt":"Page Alertes de la console administrative","bbox":[72,148,720,405]}
+{"kind":"notes","id":"nt/996hnx","slide":6,"text":"Sources: capture admin alertes fournie par l'utilisateur; endpoints /alerts, /alerts/evaluate et /alerts/:id."}
+{"kind":"slide","id":"sl/ls7f8h","slide":7,"title":"Connexion mobile","textShapes":12}
+{"kind":"textbox","id":"sh/ihsjqhor","slide":7,"text":"Connexion mobile","textPreview":"Connexion mobile","textChars":16,"textLines":1,"bbox":[70,48,760,54]}
+{"kind":"textbox","id":"sh/54j2lw7i","slide":7,"text":"La capture montre l'entrée sécurisée pour les acteurs terrain","textPreview":"La capture montre l'entrée sécurisée pour les acteurs terrain","textChars":61,"textLines":1,"bbox":[72,94,900,34]}
+{"kind":"textbox","id":"sh/43a1sr6x","slide":7,"text":"KSPH VitA Stock","textPreview":"KSPH VitA Stock","textChars":15,"textLines":1,"bbox":[72,666,260,24]}
+{"kind":"textbox","id":"sh/r61kn658","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1165,662,44,26]}
+{"kind":"textbox","id":"sh/t8j2pwne","slide":7,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[520,182,28,30]}
+{"kind":"textbox","id":"sh/s7a1wb6t","slide":7,"text":"Le champ Telephone ou email accepte les deux identifiants prévus pour les utilisateurs.","textPreview":"Le champ Telephone ou email accepte les deux identifiants prévus pour les utilisateurs.","textChars":87,"textLines":1,"bbox":[558,180,572,68]}
+{"kind":"textbox","id":"sh/falkr65k","slide":7,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[520,258,28,30]}
+{"kind":"textbox","id":"sh/e9cjy1oz","slide":7,"text":"Le champ Mot de passe active une connexion contrôlée avant la saisie de stock.","textPreview":"Le champ Mot de passe active une connexion contrôlée avant la saisie de stock.","textChars":78,"textLines":1,"bbox":[558,256,572,68]}
+{"kind":"textbox","id":"sh/wfqxsn2d","slide":7,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[520,334,28,30]}
+{"kind":"textbox","id":"sh/xgzyls3i","slide":7,"text":"Le bouton Se connecter donne un parcours simple aux relais et infirmiers.","textPreview":"Le bouton Se connecter donne un parcours simple aux relais et infirmiers.","textChars":73,"textLines":1,"bbox":[558,332,572,68]}
+{"kind":"textbox","id":"sh/at8fqxk7","slide":7,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[520,410,28,30]}
+{"kind":"textbox","id":"sh/vuhgjils","slide":7,"text":"Le visuel reprend l'identité VitA Stock avec le symbole de santé.","textPreview":"Le visuel reprend l'identité VitA Stock avec le symbole de santé.","textChars":65,"textLines":1,"bbox":[558,408,572,68]}
+{"kind":"image","id":"im/b25wn6dc","slide":7,"name":"","alt":"Écran de connexion mobile VitA Stock","bbox":[104,150,315,430]}
+{"kind":"notes","id":"nt/ls7f8h","slide":7,"text":"Sources: capture mobile login; lib/features/auth/data/auth_repository.dart et écrans d'authentification Flutter."}
+{"kind":"slide","id":"sl/9a546c","slide":8,"title":"Formulaire mobile de stock","textShapes":14}
+{"kind":"textbox","id":"sh/mdobuhcv","slide":8,"text":"Formulaire mobile de stock","textPreview":"Formulaire mobile de stock","textChars":26,"textLines":1,"bbox":[70,48,760,54]}
+{"kind":"textbox","id":"sh/9gfu5wb6","slide":8,"text":"La capture montre les champs nécessaires au rapport terrain","textPreview":"La capture montre les champs nécessaires au rapport terrain","textChars":59,"textLines":1,"bbox":[72,94,900,34]}
+{"kind":"textbox","id":"sh/8f6twru1","slide":8,"text":"KSPH VitA Stock","textPreview":"KSPH VitA Stock","textChars":15,"textLines":1,"bbox":[72,666,260,24]}
+{"kind":"textbox","id":"sh/vixc76tc","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1165,662,44,26]}
+{"kind":"textbox","id":"sh/h4zu9gbi","slide":8,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[520,164,28,30]}
+{"kind":"textbox","id":"sh/wj6t0bux","slide":8,"text":"L'utilisateur connecté apparaît en haut avec son rôle de relais communautaire.","textPreview":"L'utilisateur connecté apparaît en haut avec son rôle de relais communautaire.","textChars":78,"textLines":1,"bbox":[558,162,572,58]}
+{"kind":"textbox","id":"sh/bmdsv2d8","slide":8,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[520,230,28,30]}
+{"kind":"textbox","id":"sh/ql4bmxcn","slide":8,"text":"Le formulaire demande la structure de santé, le produit et la période Début/Fin.","textPreview":"Le formulaire demande la structure de santé, le produit et la période Début/Fin.","textChars":80,"textLines":1,"bbox":[558,228,572,58]}
+{"kind":"textbox","id":"sh/4jy54zy9","slide":8,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[520,296,28,30]}
+{"kind":"textbox","id":"sh/pk76d4fu","slide":8,"text":"Les champs Quantité reçue, Quantité distribuée et Quantité disponible couvrent le suivi stock.","textPreview":"Les champs Quantité reçue, Quantité distribuée et Quantité disponible couvrent le suivi stock.","textChars":94,"textLines":1,"bbox":[558,294,572,58]}
+{"kind":"textbox","id":"sh/2hgn2pg3","slide":8,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[520,362,28,30]}
+{"kind":"textbox","id":"sh/3ipobuxo","slide":8,"text":"La bascule Rupture déclarée et le commentaire ajoutent le contexte opérationnel.","textPreview":"La bascule Rupture déclarée et le commentaire ajoutent le contexte opérationnel.","textChars":80,"textLines":1,"bbox":[558,360,572,58]}
+{"kind":"textbox","id":"sh/c7i58jy5","slide":8,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[520,428,28,30]}
+{"kind":"textbox","id":"sh/d8r6h4fq","slide":8,"text":"Le bouton Enregistrer finalise la saisie terrain.","textPreview":"Le bouton Enregistrer finalise la saisie terrain.","textChars":49,"textLines":1,"bbox":[558,426,572,58]}
+{"kind":"image","id":"im/belw7u5w","slide":8,"name":"","alt":"Formulaire mobile de saisie de stock","bbox":[95,126,300,530]}
+{"kind":"notes","id":"nt/9a546c","slide":8,"text":"Sources: capture mobile formulaire; lib/features/stock/data/stock_repository.dart et lib/features/stock/presentation/stock_entry_screen.dart."}
+{"kind":"slide","id":"sl/8tsevd","slide":9,"title":"Flux observé dans les écrans","textShapes":8}
+{"kind":"textbox","id":"sh/g36psj2x","slide":9,"text":"Flux observé dans les écrans","textPreview":"Flux observé dans les écrans","textChars":28,"textLines":1,"bbox":[70,48,760,54]}
+{"kind":"textbox","id":"sh/f2xozelc","slide":9,"text":"Les captures montrent le lien entre administration et terrain","textPreview":"Les captures montrent le lien entre administration et terrain","textChars":61,"textLines":1,"bbox":[72,94,900,34]}
+{"kind":"textbox","id":"sh/e1o7qtkr","slide":9,"text":"KSPH VitA Stock","textPreview":"KSPH VitA Stock","textChars":15,"textLines":1,"bbox":[72,666,260,24]}
+{"kind":"textbox","id":"sh/t0f6xo3m","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1165,662,44,26]}
+{"kind":"shape","id":"sh/sz6poj21","slide":9,"bbox":[88,160,500,330]}
+{"kind":"shape","id":"sh/ryxovelg","slide":9,"bbox":[692,160,500,330]}
+{"kind":"textbox","id":"sh/6x47m9kv","slide":9,"text":"Côté admin web","textPreview":"Côté admin web","textChars":14,"textLines":1,"bbox":[124,205,360,38]}
+{"kind":"textbox","id":"sh/5wv6t43a","slide":9,"text":"Créer les comptes\nPréparer le référentiel\nÉvaluer les alertes\nSuivre les statuts","textPreview":"Créer les comptes | Préparer le référentiel | Évaluer les alertes | Suivre les statuts","textChars":80,"textLines":4,"bbox":[124,275,380,160]}
+{"kind":"textbox","id":"sh/4vm5kz2p","slide":9,"text":"Côté mobile","textPreview":"Côté mobile","textChars":11,"textLines":1,"bbox":[730,205,360,38]}
+{"kind":"textbox","id":"sh/6907ux4n","slide":9,"text":"Se connecter\nChoisir la structure\nRenseigner les quantités\nDéclarer une rupture","textPreview":"Se connecter | Choisir la structure | Renseigner les quantités | Déclarer une rupture","textChars":79,"textLines":4,"bbox":[730,275,410,160]}
+{"kind":"notes","id":"nt/8tsevd","slide":9,"text":"Synthèse visuelle basée sur les captures fournies."}
+{"kind":"slide","id":"sl/5rvtbk","slide":10,"title":"Ce que les captures permettent de défendre","textShapes":15}
+{"kind":"textbox","id":"sh/ovm1wny9","slide":10,"text":"Ce que les captures permettent de défendre","textPreview":"Ce que les captures permettent de défendre","textChars":42,"textLines":1,"bbox":[70,48,760,54]}
+{"kind":"textbox","id":"sh/nud03ixo","slide":10,"text":"Le projet dispose déjà d'une démonstration exploitable","textPreview":"Le projet dispose déjà d'une démonstration exploitable","textChars":54,"textLines":1,"bbox":[72,94,900,34]}
+{"kind":"textbox","id":"sh/mt4judg3","slide":10,"text":"KSPH VitA Stock","textPreview":"KSPH VitA Stock","textChars":15,"textLines":1,"bbox":[72,666,260,24]}
+{"kind":"textbox","id":"sh/1svi18fi","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1165,662,44,26]}
+{"kind":"textbox","id":"sh/0rmhs3yx","slide":10,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[92,164,28,30]}
+{"kind":"textbox","id":"sh/zqd0zyxs","slide":10,"text":"Un administrateur peut créer les comptes et organiser le référentiel sanitaire.","textPreview":"Un administrateur peut créer les comptes et organiser le référentiel sanitaire.","textChars":79,"textLines":1,"bbox":[130,162,992,64]}
+{"kind":"textbox","id":"sh/ep4zqtg7","slide":10,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[92,236,28,30]}
+{"kind":"textbox","id":"sh/d4vix8fm","slide":10,"text":"Un responsable peut ouvrir l'écran Alertes pour voir les structures à risque.","textPreview":"Un responsable peut ouvrir l'écran Alertes pour voir les structures à risque.","textChars":77,"textLines":1,"bbox":[130,234,992,64]}
+{"kind":"textbox","id":"sh/c32ho3y1","slide":10,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[92,308,28,30]}
+{"kind":"textbox","id":"sh/mlcrihsv","slide":10,"text":"Un acteur terrain peut se connecter sur mobile et renseigner un rapport de stock complet.","textPreview":"Un acteur terrain peut se connecter sur mobile et renseigner un rapport de stock complet.","textChars":89,"textLines":1,"bbox":[130,306,992,64]}
+{"kind":"textbox","id":"sh/nml8rm9g","slide":10,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[92,380,28,30]}
+{"kind":"textbox","id":"sh/8nu9kra1","slide":10,"text":"Les prochaines démonstrations doivent montrer le dashboard rempli avec les données remontées du mobile.","textPreview":"Les prochaines démonstrations doivent montrer le dashboard rempli avec les données remontées du mobile.","textChars":103,"textLines":1,"bbox":[130,378,992,64]}
+{"kind":"textbox","id":"sh/9o3qtwrm","slide":10,"text":"✓","textPreview":"✓","textChars":1,"textLines":1,"bbox":[92,452,28,30]}
+{"kind":"textbox","id":"sh/ehs7ehsz","slide":10,"text":"Les SMS et l'assistant LLM peuvent venir après stabilisation du flux visible dans ces écrans.","textPreview":"Les SMS et l'assistant LLM peuvent venir après stabilisation du flux visible dans ces écrans.","textChars":93,"textLines":1,"bbox":[130,450,992,64]}
+{"kind":"textbox","id":"sh/zil8nmtk","slide":10,"text":"Priorité recommandée: stabiliser les règles d'accès, les tests et le pilotage opérationnel avant les automatisations avancées.","textPreview":"Priorité recommandée: stabiliser les règles d'accès, les tests et le pilotage opérationnel avant les automatisations avancées.","textChars":126,"textLines":1,"bbox":[94,560,1030,44]}
+{"kind":"notes","id":"nt/5rvtbk","slide":10,"text":"Synthèse de recommandations basée sur l'état actuel du projet et les objectifs exprimés par l'utilisateur."}

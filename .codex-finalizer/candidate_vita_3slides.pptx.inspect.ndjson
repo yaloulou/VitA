@@ -1,0 +1,52 @@
+{"kind":"deck","id":"pr/kjm759","name":"Deck"}
+{"kind":"layout","layoutId":"1e4bbb1e-d5fd-4e01-84dd-3bd739a275d4","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"bb862ba6-51dc-4995-8717-5df8503b3a35","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/vuj8c2","slide":1,"title":"Console admin: utilisateurs et référentiel","textShapes":10}
+{"kind":"textbox","id":"sh/onitwjep","slide":1,"text":"Console admin: utilisateurs et référentiel","textPreview":"Console admin: utilisateurs et référentiel","textChars":42,"textLines":1,"bbox":[64,40,850,44]}
+{"kind":"textbox","id":"sh/nm9cned4","slide":1,"text":"Les captures montrent la préparation des comptes, des structures et du produit Vitamine A","textPreview":"Les captures montrent la préparation des comptes, des structures et du produit Vitamine A","textChars":89,"textLines":1,"bbox":[66,86,900,28]}
+{"kind":"textbox","id":"sh/2l0bu9wz","slide":1,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[1170,50,45,24]}
+{"kind":"shape","id":"sh/1krulove","slide":1,"bbox":[66,124,104,4]}
+{"kind":"textbox","id":"sh/exgbq9wn","slide":1,"text":"Création des utilisateurs","textPreview":"Création des utilisateurs","textChars":25,"textLines":1,"bbox":[640,158,335,24]}
+{"kind":"textbox","id":"sh/dw7uh4v2","slide":1,"text":"Le formulaire permet de créer un compte, choisir un rôle, définir un périmètre et affecter l'utilisateur à une structure.","textPreview":"Le formulaire permet de créer un compte, choisir un rôle, définir un périmètre et affecter l'utilisateur à une structure.","textChars":121,"textLines":1,"bbox":[640,186,350,70]}
+{"kind":"textbox","id":"sh/svytozeh","slide":1,"text":"Comptes actifs","textPreview":"Comptes actifs","textChars":14,"textLines":1,"bbox":[640,284,335,24]}
+{"kind":"textbox","id":"sh/utcvetkr","slide":1,"text":"La liste affiche les utilisateurs existants avec téléphone, rôle et statut. Elle sert au suivi des accès terrain et supervision.","textPreview":"La liste affiche les utilisateurs existants avec téléphone, rôle et statut. Elle sert au suivi des accès terrain et supervision.","textChars":128,"textLines":1,"bbox":[640,312,350,70]}
+{"kind":"textbox","id":"sh/vulw7y1c","slide":1,"text":"Référentiel sanitaire","textPreview":"Référentiel sanitaire","textChars":21,"textLines":1,"bbox":[640,462,335,24]}
+{"kind":"textbox","id":"sh/wvudg32x","slide":1,"text":"Les formulaires couvrent province, zone de santé, structure et produit. Vitamine A apparaît comme produit suivi en capsule.","textPreview":"Les formulaires couvrent province, zone de santé, structure et produit. Vitamine A apparaît comme produit suivi en capsule.","textChars":123,"textLines":1,"bbox":[640,490,350,70]}
+{"kind":"textbox","id":"sh/hwne98ji","slide":1,"text":"KSPH VitA Stock","textPreview":"KSPH VitA Stock","textChars":15,"textLines":1,"bbox":[66,670,220,20]}
+{"kind":"image","id":"im/torqt0j2","slide":1,"name":"","alt":"Console admin: création et liste des utilisateurs","bbox":[62,150,520,270]}
+{"kind":"image","id":"im/6lg7y50r","slide":1,"name":"","alt":"Console admin: référentiel sanitaire","bbox":[62,438,520,190]}
+{"kind":"notes","id":"nt/vuj8c2","slide":1,"text":"Sources: captures utilisateurs et référentiel fournies par l'utilisateur."}
+{"kind":"slide","id":"sl/kigt71","slide":2,"title":"Console admin: alertes opérationnelles","textShapes":12}
+{"kind":"textbox","id":"sh/bax8jelw","slide":2,"text":"Console admin: alertes opérationnelles","textPreview":"Console admin: alertes opérationnelles","textChars":38,"textLines":1,"bbox":[64,40,850,44]}
+{"kind":"textbox","id":"sh/cb6psjmh","slide":2,"text":"Les deux captures montrent le même module de suivi des risques et retards de rapport","textPreview":"Les deux captures montrent le même module de suivi des risques et retards de rapport","textChars":84,"textLines":1,"bbox":[66,86,900,28]}
+{"kind":"textbox","id":"sh/xcfql432","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1170,50,45,24]}
+{"kind":"shape","id":"sh/yd87u94n","slide":2,"bbox":[66,124,104,4]}
+{"kind":"textbox","id":"sh/l0zqpo3y","slide":2,"text":"Évaluer les alertes","textPreview":"Évaluer les alertes","textChars":19,"textLines":1,"bbox":[665,160,335,24]}
+{"kind":"textbox","id":"sh/eh47ip43","slide":2,"text":"Le bouton en haut à droite permet de relancer l'analyse des situations à risque à partir des données disponibles.","textPreview":"Le bouton en haut à droite permet de relancer l'analyse des situations à risque à partir des données disponibles.","textChars":113,"textLines":1,"bbox":[665,188,350,70]}
+{"kind":"textbox","id":"sh/f2dobulo","slide":2,"text":"Stock critique","textPreview":"Stock critique","textChars":14,"textLines":1,"bbox":[665,290,335,24]}
+{"kind":"textbox","id":"sh/be5wze5c","slide":2,"text":"L'alerte critical_stock signale CS Binza avec environ 1 jour de stock restant pour la Vitamine A.","textPreview":"L'alerte critical_stock signale CS Binza avec environ 1 jour de stock restant pour la Vitamine A.","textChars":97,"textLines":1,"bbox":[665,318,350,70]}
+{"kind":"textbox","id":"sh/adwf69or","slide":2,"text":"Rapport manquant","textPreview":"Rapport manquant","textChars":16,"textLines":1,"bbox":[665,420,335,24]}
+{"kind":"textbox","id":"sh/xgny1oni","slide":2,"text":"L'alerte missing_report signale CS Nzanza lorsque le rapport attendu n'a pas été reçu à temps.","textPreview":"L'alerte missing_report signale CS Nzanza lorsque le rapport attendu n'a pas été reçu à temps.","textChars":94,"textLines":1,"bbox":[665,448,350,70]}
+{"kind":"textbox","id":"sh/cfex8j6x","slide":2,"text":"Traitement des alertes","textPreview":"Traitement des alertes","textChars":22,"textLines":1,"bbox":[665,550,335,24]}
+{"kind":"textbox","id":"sh/nq5wvu50","slide":2,"text":"Les actions à droite de chaque ligne servent à accuser réception ou résoudre une alerte suivie par les responsables.","textPreview":"Les actions à droite de chaque ligne servent à accuser réception ou résoudre une alerte suivie par les responsables.","textChars":116,"textLines":1,"bbox":[665,578,350,70]}
+{"kind":"textbox","id":"sh/2pcf2pov","slide":2,"text":"KSPH VitA Stock","textPreview":"KSPH VitA Stock","textChars":15,"textLines":1,"bbox":[66,670,220,20]}
+{"kind":"image","id":"im/q54fe9o7","slide":2,"name":"","alt":"Console admin: alertes opérationnelles, capture 1","bbox":[62,154,545,306]}
+{"kind":"image","id":"im/d8vy9o7i","slide":2,"name":"","alt":"Console admin: alertes opérationnelles, capture 2","bbox":[62,482,545,130]}
+{"kind":"notes","id":"nt/kigt71","slide":2,"text":"Sources: deux captures du module Alertes fournies par l'utilisateur."}
+{"kind":"slide","id":"sl/dxiihd","slide":3,"title":"Application mobile: connexion et saisie stock","textShapes":12}
+{"kind":"textbox","id":"sh/03qtwnqp","slide":3,"text":"Application mobile: connexion et saisie stock","textPreview":"Application mobile: connexion et saisie stock","textChars":45,"textLines":1,"bbox":[64,40,850,44]}
+{"kind":"textbox","id":"sh/z2xc3i94","slide":3,"text":"Les captures montrent le parcours terrain, de l'identification à l'enregistrement du rapport","textPreview":"Les captures montrent le parcours terrain, de l'identification à l'enregistrement du rapport","textChars":92,"textLines":1,"bbox":[66,86,900,28]}
+{"kind":"textbox","id":"sh/y1obud8j","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1170,50,45,24]}
+{"kind":"shape","id":"sh/9szutsr6","slide":3,"bbox":[66,124,104,4]}
+{"kind":"textbox","id":"sh/m58byx8f","slide":3,"text":"Connexion terrain","textPreview":"Connexion terrain","textChars":17,"textLines":1,"bbox":[695,152,335,24]}
+{"kind":"textbox","id":"sh/xwjuxcri","slide":3,"text":"L'utilisateur se connecte avec téléphone ou email et mot de passe. L'écran reprend l'identité VitA Stock.","textPreview":"L'utilisateur se connecte avec téléphone ou email et mot de passe. L'écran reprend l'identité VitA Stock.","textChars":105,"textLines":1,"bbox":[695,180,350,70]}
+{"kind":"textbox","id":"sh/wvad47qx","slide":3,"text":"Profil visible","textPreview":"Profil visible","textChars":14,"textLines":1,"bbox":[695,280,335,24]}
+{"kind":"textbox","id":"sh/id0j210n","slide":3,"text":"Le formulaire affiche l'utilisateur connecté, ici un relais communautaire, avant la saisie des données.","textPreview":"Le formulaire affiche l'utilisateur connecté, ici un relais communautaire, avant la saisie des données.","textChars":103,"textLines":1,"bbox":[695,308,350,70]}
+{"kind":"textbox","id":"sh/3e90b6h8","slide":3,"text":"Formulaire complet","textPreview":"Formulaire complet","textChars":18,"textLines":1,"bbox":[695,408,335,24]}
+{"kind":"textbox","id":"sh/4zi14rit","slide":3,"text":"La saisie couvre structure, produit, période, quantités reçues, distribuées et disponibles.","textPreview":"La saisie couvre structure, produit, période, quantités reçues, distribuées et disponibles.","textChars":91,"textLines":1,"bbox":[695,436,350,70]}
+{"kind":"textbox","id":"sh/50bidwze","slide":3,"text":"Rupture déclarée","textPreview":"Rupture déclarée","textChars":16,"textLines":1,"bbox":[695,536,335,24]}
+{"kind":"textbox","id":"sh/q1kj610z","slide":3,"text":"La bascule de rupture et le commentaire optionnel ajoutent le contexte nécessaire aux superviseurs.","textPreview":"La bascule de rupture et le commentaire optionnel ajoutent le contexte nécessaire aux superviseurs.","textChars":99,"textLines":1,"bbox":[695,564,350,70]}
+{"kind":"textbox","id":"sh/r2t0f6h4","slide":3,"text":"KSPH VitA Stock","textPreview":"KSPH VitA Stock","textChars":15,"textLines":1,"bbox":[66,670,220,20]}
+{"kind":"image","id":"im/94n2lwri","slide":3,"name":"","alt":"Application mobile: écran de connexion","bbox":[74,150,260,360]}
+{"kind":"image","id":"im/m1wjqhsr","slide":3,"name":"","alt":"Application mobile: formulaire de saisie de stock","bbox":[378,142,250,450]}
+{"kind":"notes","id":"nt/dxiihd","slide":3,"text":"Sources: captures de connexion mobile et formulaire de saisie stock fournies par l'utilisateur."}
