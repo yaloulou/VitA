@@ -21,8 +21,9 @@ class GeoDto {
 }
 
 export class CreateProvinceDto {
+  @IsOptional()
   @IsString()
-  code: string;
+  code?: string;
 
   @IsString()
   name: string;
@@ -36,8 +37,9 @@ export class CreateHealthZoneDto {
   @IsMongoId()
   provinceId: string;
 
+  @IsOptional()
   @IsString()
-  code: string;
+  code?: string;
 
   @IsString()
   name: string;
@@ -59,8 +61,9 @@ export class CreateFacilityDto {
   @IsMongoId()
   healthZoneId: string;
 
+  @IsOptional()
   @IsString()
-  code: string;
+  code?: string;
 
   @IsString()
   name: string;

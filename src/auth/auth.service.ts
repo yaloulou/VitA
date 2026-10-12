@@ -26,7 +26,7 @@ export class AuthService {
     }
 
     const user = await this.usersService.findByIdentifierWithAuth(identifier);
-    if (!user || !user.auth?.isEnabled) {
+    if (!user || !user.auth?.isEnabled || user.status !== RecordStatus.Active) {
       throw new UnauthorizedException('Invalid credentials');
     }
 

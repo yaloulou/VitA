@@ -2,8 +2,9 @@ import { IsEnum, IsOptional, IsString } from 'class-validator';
 import { RecordStatus } from '../../common/common.dto';
 
 export class CreateCommodityDto {
+  @IsOptional()
   @IsString()
-  code: string;
+  code?: string;
 
   @IsString()
   name: string;

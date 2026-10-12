@@ -5,6 +5,7 @@ import {
   IsMongoId,
   IsOptional,
   IsString,
+  MinLength,
   ValidateNested,
 } from 'class-validator';
 import { Type } from 'class-transformer';
@@ -68,6 +69,7 @@ export class CreateUserDto {
 
   @IsOptional()
   @IsString()
+  @MinLength(8)
   password?: string;
 
   @IsOptional()
@@ -79,6 +81,40 @@ export class CreateUserDto {
   @ValidateNested()
   @Type(() => NotificationPrefsDto)
   notificationPrefs?: NotificationPrefsDto;
+
+  @IsOptional()
+  @IsEnum(RecordStatus)
+  status?: RecordStatus;
+}
+
+export class UpdateUserDto {
+  @IsOptional()
+  @IsString()
+  @MinLength(1)
+  fullName?: string;
+
+  @IsOptional()
+  @IsEmail()
+  email?: string;
+
+  @IsOptional()
+  @IsString()
+  @MinLength(1)
+  phone?: string;
+
+  @IsOptional()
+  @IsEnum(UserRole)
+  role?: UserRole;
+
+  @IsOptional()
+  @ValidateNested()
+  @Type(() => UserScopeDto)
+  scope?: UserScopeDto;
+
+  @IsOptional()
+  @IsString()
+  @MinLength(8)
+  password?: string;
 
   @IsOptional()
   @IsEnum(RecordStatus)

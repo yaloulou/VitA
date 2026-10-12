@@ -1,6 +1,7 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import { HydratedDocument, Schema as MongooseSchema, Types } from 'mongoose';
 import { RecordStatus } from '../../common/common.dto';
+import { randomUUID } from 'node:crypto';
 
 export type HealthZoneDocument = HydratedDocument<HealthZone>;
 
@@ -14,7 +15,12 @@ export class HealthZone {
   })
   provinceId: Types.ObjectId;
 
-  @Prop({ required: true, trim: true, uppercase: true })
+  @Prop({
+    required: true,
+    trim: true,
+    uppercase: true,
+    default: () => randomUUID(),
+  })
   code: string;
 
   @Prop({ required: true, trim: true })

@@ -1,12 +1,19 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import { HydratedDocument } from 'mongoose';
 import { RecordStatus } from '../../common/common.dto';
+import { randomUUID } from 'node:crypto';
 
 export type CommodityDocument = HydratedDocument<Commodity>;
 
 @Schema({ timestamps: true })
 export class Commodity {
-  @Prop({ required: true, trim: true, uppercase: true, unique: true })
+  @Prop({
+    required: true,
+    trim: true,
+    uppercase: true,
+    unique: true,
+    default: () => randomUUID(),
+  })
   code: string;
 
   @Prop({ required: true, trim: true })
