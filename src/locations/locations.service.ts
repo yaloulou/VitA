@@ -56,8 +56,11 @@ export class LocationsService {
   }
 
   listFacilities(query: ScopedQueryDto) {
+    const { facilityId, ...scope } = query;
+    const filter = this.cleanFilter(scope);
+    if (facilityId) filter._id = facilityId;
     return this.facilityModel
-      .find(this.cleanFilter(query))
+      .find(filter)
       .populate('provinceId', 'code name')
       .populate('healthZoneId', 'code name')
       .sort({ name: 1 });
