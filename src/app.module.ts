@@ -9,6 +9,7 @@ import { CommoditiesModule } from './commodities/commodities.module';
 import { UsersModule } from './users/users.module';
 import { InventoryModule } from './inventory/inventory.module';
 import { AuthModule } from './auth/auth.module';
+import { IndicatorsModule } from './indicators/indicators.module';
 
 @Module({
   imports: [
@@ -36,6 +37,7 @@ import { AuthModule } from './auth/auth.module';
     UsersModule,
     InventoryModule,
     AuthModule,
+    IndicatorsModule,
   ],
   controllers: [AppController],
   providers: [AppService],

@@ -1,0 +1,164 @@
+[
+  {
+    "id": "supplementation",
+    "title": "Supplementation des enfants",
+    "fields": [
+      {
+        "key": "targetedChildren",
+        "label": "Nombre d'enfants 6-59 mois cibles",
+        "aggregation": "sum"
+      },
+      {
+        "key": "supplementedChildren",
+        "label": "Nombre supplementes",
+        "aggregation": "sum"
+      },
+      {
+        "key": "supplementedAt6Months",
+        "label": "Nombre supplementes a 6 mois",
+        "aggregation": "sum"
+      },
+      {
+        "key": "supplemented6To11Months",
+        "label": "Nombre supplementes 6-11 mois",
+        "aggregation": "sum"
+      },
+      {
+        "key": "supplemented12To59Months",
+        "label": "Nombre supplementes 12-59 mois",
+        "aggregation": "sum"
+      },
+      {
+        "key": "supplementedGirls",
+        "label": "Nombre filles supplementees",
+        "aggregation": "sum"
+      },
+      {
+        "key": "supplementedBoys",
+        "label": "Nombre garcons supplementes",
+        "aggregation": "sum"
+      }
+    ]
+  },
+  {
+    "id": "cps",
+    "title": "Consultations prescolaires (CPS)",
+    "fields": [
+      {
+        "key": "plannedCps",
+        "label": "Nombre de CPS prevues",
+        "aggregation": "sum"
+      },
+      {
+        "key": "completedCps",
+        "label": "Nombre de CPS realisees",
+        "aggregation": "sum"
+      },
+      {
+        "key": "supplementedDuringCps",
+        "label": "Nombre enfants supplementes lors CPS (mensuel)",
+        "aggregation": "sum"
+      },
+      {
+        "key": "missedChildren",
+        "label": "Enfants manques",
+        "aggregation": "sum"
+      }
+    ]
+  },
+  {
+    "id": "outreach",
+    "title": "Strategie avancee",
+    "fields": [
+      {
+        "key": "plannedOutreach",
+        "label": "Nombre sorties avancees prevues",
+        "aggregation": "sum"
+      },
+      {
+        "key": "completedOutreach",
+        "label": "Nombre sorties avancees realisees",
+        "aggregation": "sum"
+      },
+      {
+        "key": "outreachCpsSessions",
+        "label": "Nombre seances CPS en strategie avancee",
+        "aggregation": "sum"
+      },
+      {
+        "key": "outreachSupplementedChildren",
+        "label": "Nombre enfants supplementes en strategie avancee",
+        "aggregation": "sum"
+      }
+    ]
+  },
+  {
+    "id": "community",
+    "title": "Activites communautaires",
+    "fields": [
+      {
+        "key": "communityTalks",
+        "label": "Nombre causeries realisees",
+        "aggregation": "sum"
+      },
+      {
+        "key": "activeRelays",
+        "label": "Nombre relais actifs",
+        "aggregation": "latest"
+      },
+      {
+        "key": "visitedHouseholds",
+        "label": "Nombre menages visites",
+        "aggregation": "sum"
+      },
+      {
+        "key": "codesaSvaMeetings",
+        "label": "Nombre reunions CODESA integrant SVA",
+        "aggregation": "sum"
+      }
+    ]
+  },
+  {
+    "id": "coordination",
+    "title": "Coordination",
+    "fields": [
+      {
+        "key": "coordinationMeetings",
+        "label": "Nombre reunions coordination",
+        "aggregation": "sum"
+      }
+    ]
+  },
+  {
+    "id": "training",
+    "title": "Formation",
+    "fields": [
+      {
+        "key": "trainedProviders",
+        "label": "Nombre prestataires formes",
+        "aggregation": "sum"
+      },
+      {
+        "key": "trainedDataManagers",
+        "label": "Nombre data managers formes",
+        "aggregation": "sum"
+      },
+      {
+        "key": "trainedCommunityRelays",
+        "label": "Nombre relais communautaires formes",
+        "aggregation": "sum"
+      }
+    ]
+  },
+  {
+    "id": "awareness",
+    "title": "Sensibilisation",
+    "fields": [
+      {
+        "key": "awarenessSessions",
+        "label": "Nombre seances sensibilisation",
+        "aggregation": "sum"
+      }
+    ]
+  }
+]
